@@ -18,7 +18,8 @@ exe to shellcode converter
 The shellcode is by default saved to a file named `shellcode.txt`
 
 ## Examples
+Generate shellcode for the file test.exe and save to `shellcode.txt` :
 ```
 ./exe2shc -f text.exe
-``` : Generate shellcode for the file test.exe and save to `shellcode.txt` \
+``` 
 ```./exe2shc -f text.exe -o test.txt``` : Generate shellcode for the file test.exe and save to `text.txt` instead of the default `shellcode.txt`
