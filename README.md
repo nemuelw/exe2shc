@@ -1,5 +1,5 @@
 # exe2shc 
-exe to shellcode Converter
+exe to shellcode converter
 
 ## Installation
 - Clone this repository
