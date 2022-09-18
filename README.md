@@ -22,4 +22,7 @@ Generate shellcode for the file test.exe and save to `shellcode.txt` :
 ```
 ./exe2shc -f text.exe
 ``` 
-```./exe2shc -f text.exe -o test.txt``` : Generate shellcode for the file test.exe and save to `text.txt` instead of the default `shellcode.txt`
+Generate shellcode for the file test.exe and save to `text.txt` instead of the default `shellcode.txt` :
+```
+./exe2shc -f text.exe -o test.txt
+```
