@@ -10,7 +10,9 @@ exe to shellcode converter
 ## Usage
 - Navigate to the project directory
 - Run the command :
-    ```./exe2shc -f <EXE-FILE>```
+    ```
+    ./exe2shc -f <EXE-FILE>
+    ```
 
 ## Note :
 The shellcode is by default saved to a file named `shellcode.txt`
