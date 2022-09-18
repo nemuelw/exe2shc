@@ -5,7 +5,9 @@ exe to shellcode converter
 - Clone this repository
 - Navigate to the project directory 
 - Run the command :
-    ```go build exe2shc.go```
+    ```
+    go build exe2shc.go
+    ```
 
 ## Usage
 - Navigate to the project directory
