@@ -5,16 +5,16 @@ exe to shellcode converter
 - Clone this repository
 - Navigate to the project directory 
 - Run the command :
-    `go build exe2shc.go`
+    ```go build exe2shc.go```
 
 ## Usage
 - Navigate to the project directory
 - Run the command :
-    `./exe2shc -f <EXE-FILE>`
+    ```./exe2shc -f <EXE-FILE>```
 
 ## Note :
 The shellcode is by default saved to a file named `shellcode.txt`
 
 ## Examples
-`./exe2shc -f text.exe` : Generate shellcode for the file test.exe and save to `shellcode.txt` \
-`./exe2shc -f text.exe -o test.txt` : Generate shellcode for the file test.exe and save to `text.txt` instead of the default `shellcode.txt`
+```./exe2shc -f text.exe``` : Generate shellcode for the file test.exe and save to `shellcode.txt` \
+```./exe2shc -f text.exe -o test.txt``` : Generate shellcode for the file test.exe and save to `text.txt` instead of the default `shellcode.txt`
